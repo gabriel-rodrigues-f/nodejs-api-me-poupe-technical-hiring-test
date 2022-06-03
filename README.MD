@@ -34,7 +34,6 @@ Technologies used in the project
   
 * Launch the application using Docker
   - npm install
-  - docker build -t myname/myapp
   - docker-compose up
   
 * Launch the application locally
