@@ -42,13 +42,6 @@ Technologies used in the project
   - yarn:
     - yarn add: add the necessary packages to the project
     - yarn dev: launch the application in the development environment
-    - yarn stg: Starts the application in an approval environment
-
-  - npm:
-    - npm i: add the necessary packages to the project
-    - npm run dev: launch the application in the development environment
-    - npm run stg: Starts the application in an approval environment
-
 
 ## Use the API
 ### Search Address:
