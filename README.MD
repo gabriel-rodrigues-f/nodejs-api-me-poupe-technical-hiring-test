@@ -49,6 +49,25 @@ Technologies used in the project
     - npm run dev: launch the application in the development environment
     - npm run stg: Starts the application in an approval environment
 
+
+## Use the API
+### Search Address:
+  - Method: ```POST```
+  - ```Url: localhost:3000/address/searchaddress```
+  - Examples:
+    - Match full address structure: ```{ "cep": "07160-170" }```
+    - Match incomplete address: ```{ "cep": "18150-000"}```
+    - Not Found: ```{ "cep": "00000-000"}```
+    - Internal Server Error: ``` send empty ```
+
+### Search Address:
+  - Method: ```POST```
+  - ```Url: localhost:3000/calculator/average```
+  - Examples:
+    - Match the rounded average calculation with Half Round Up: ``` { "first": 1, "second": 5.681} ```
+      - Input type can be string or numeric
+    - Error: send empty, omit parameters or send incorrect parameters
+
 ## Features
 
 ### Calculate average
