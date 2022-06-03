@@ -3,10 +3,10 @@ FROM node:alpine
 WORKDIR /usr/app
 
 COPY package*.json ./
-RUN yarn stg
+RUN yarn
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["yarn", "stg"]
+CMD ["yarn", "dev"]
