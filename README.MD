@@ -1,8 +1,6 @@
-# Vamos Desfuder a Nação!
+# API Me Poupe!
 
 ![me-poupe](https://user-images.githubusercontent.com/63867838/171801259-6e92ff91-704c-4fa4-a58c-0762dab96f4a.png)
-
-##  Desenvolvedor Node.js Junior
 
 ##  Technology 
 
@@ -64,4 +62,3 @@ Technologies used in the project
 
 ##  Authors
   * **Gabriel Vinícius Rodrigues Freire**
-  * Thank you for your attention and for the opportunity to make a dream come true!
