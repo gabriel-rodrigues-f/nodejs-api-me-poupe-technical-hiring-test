@@ -7,7 +7,6 @@
 Technologies used in the project
 
 * node            16.13.0
-* yarn            1.22.15
 * npm             8.8.0
 * docker          20.10.16
 * docker-compose  1.26.0
@@ -29,19 +28,17 @@ Technologies used in the project
   - eslint                      7.32.0 || 8.2.0
     - eslint-config-airbnb-base 15.0.0
     - eslint-plugin-import      2.25.2
-  - express-validator           6.14.1
   - jest                        28.1.0
   
 ##  Launch the application
   
 * Launch the application using Docker
-  - yarn add nodemon -g
+  - npm install
   - docker build -t myname/myapp
   - docker-compose up
   
 * Launch the application locally
-  - yarn:
-    - yarn dev: launch the application in the development environment
+    - npm run dev: launch the application in the development environment
 
 ## Use the API
 ### Search Address:
