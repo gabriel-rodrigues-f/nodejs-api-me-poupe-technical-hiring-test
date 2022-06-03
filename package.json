@@ -11,7 +11,7 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "node src/server.js",
     "stg": "node src/server.js",
     "test": "jest"
   },

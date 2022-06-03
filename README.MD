@@ -35,12 +35,12 @@ Technologies used in the project
 ##  Launch the application
   
 * Launch the application using Docker
+  - yarn add nodemon -g
   - docker build -t myname/myapp
   - docker-compose up
   
 * Launch the application locally
   - yarn:
-    - yarn add: add the necessary packages to the project
     - yarn dev: launch the application in the development environment
 
 ## Use the API
