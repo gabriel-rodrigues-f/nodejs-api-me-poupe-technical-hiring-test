@@ -33,9 +33,11 @@ Technologies used in the project
 ##  Launch the application
   
 * Launch the application using Docker
-  - npm install
   - docker build -t mepoupe/dockermepoupe .
   - docker-compose up
+
+* Launch tests
+  - npm test
   
 * Launch the application locally
     - npm run dev: launch the application in the development environment
