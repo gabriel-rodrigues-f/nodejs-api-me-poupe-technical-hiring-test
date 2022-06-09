@@ -57,7 +57,7 @@ Subject
     - npm run dev: launch the application in the development environment
     
 ### Launch tests
-  - npm test
+    - npm test
   
 ## Use the API
 ### Search Address:
